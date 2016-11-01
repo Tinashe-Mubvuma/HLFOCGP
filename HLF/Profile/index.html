@@ -1,9 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>HLFOCG - Home Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="images/h_logo.png">
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<div id="left">
+		<img src="images/h_logo_og.png">
+		<div class="props">
+			<ul>
+				<li>Announcements</li>
+				<li>Notifications</li>
+				<li>Bulletin</li>
+				<li>Events</li>
+				<li>Achieves</li>
+				<li>Settings</li>
+			</ul>
+		</div>
+	</div>
 
+	<div id="right">
+		<img src="images/john_doe.jpg">
+		<div class="props">
+			<ul>
+				<li>Edit Profile</li>
+				<li>Notifications</li>
+				<li>Contacts</li>
+				<li>Messages</li>
+				<li>Careers</li>
+				<li>Settings</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="main">
+		<div id="header">
+			<ul>
+				<li id="home"><img src="images/home_icon.png"></li>
+				<li id="post"><img src="images/post.png">
+					<ul id="post_dropdown">
+						<li><a href="#">Announcement</a></li>
+						<li><a href="#">Message</a></li>
+						<li><a href="#">Event</a></li>
+						<li><a href="#">Archive Material</a></li>
+						<li><a href="#">Feedback</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul id="right_header">
+				<li id="logout_btn"><img src="images/logout.png"></li>
+				<li><img src="images/options.png"></li>
+			</ul>
+		</div>
+
+		<div id="top_menu">
+			<div class="menu_item">
+				<img src="images/alarm.png" class="not_logo">
+				Calender:<br>
+				Skype w/ Mentor
+			</div>
+			<div class="menu_item">
+				<img src="images/reminder.png" class="not_logo">
+				Reminder:<br>
+				3 Days to CV Submit
+			</div>
+			<div class="menu_item">
+				<img src="images/flag.png" class="not_logo">
+				Notification:<br>
+				Update Password
+			</div>
+		</div>
+		
+		<div id="profile" style="display:block">
+			<div id="prof_pic_set">
+				<div id="prof_box">
+					<form name="log">
+						<p>Set Profile Picture</p>
+						<input type="file" name="upload" id="file">
+					</form>
+					<input id = "upload" type="submit" value="Upload And Set">
+				</div>
+			</div>
+			<div id="prof_set">
+				<div id="edit_box">
+					<form name="edit">
+						<input type="text" placeholder="Cellphone Number" name="cell">
+						<input type="text" placeholder="Current Location" name="location">
+						<input type="text" placeholder="Citizenship" name="citizen">
+						<input type="text" placeholder="Alma mater" name="alma">
+						<input type="text" placeholder="Current Field" name="field">
+						<input type="text" placeholder="Specialty" name="spec">
+						<input type="text" placeholder="Experianced in " name="exp">
+						
+						<select name="gender">
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+						</select>
+						<input type="text" placeholder="Religion" name="religion">
+						<textarea rows="3" name="interests" placeholder="Interests"></textarea>
+						
+					</form>
+					<input type="submit" id="update_btn" value="Save Changes">
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
