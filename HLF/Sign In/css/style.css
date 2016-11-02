@@ -20,17 +20,17 @@ body{
 #login_box{
 	width: 300px;
 	margin: auto;
-	margin-top: 80px;
+	margin-top: 50px;
 	padding: 20px;
-	border: #c3c3c2 3px solid;
+	border: #c3c3c2 1px solid;
 }
 #create_box{
 	display: none;
 	width: 300px;
 	margin: auto;
-	margin-top: 80px;
+	margin-top: 50px;
 	padding: 20px;
-	border: #c3c3c2 3px solid;
+	border: #c3c3c2 1px solid;
 }
 #login_box p{
 	color: #797978;
@@ -43,7 +43,7 @@ input{
 	margin-bottom: 10px;
 	outline: none;
 	background-color: #fff;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 	border: 1px solid #E1E1E1;
 }
 input[type=submit]{
@@ -61,7 +61,7 @@ input[type=submit]{
 	outline: none;
 	border: 1px solid #E1E1E1;
 	padding: 5px;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 }
 #login{
 	display: none;
