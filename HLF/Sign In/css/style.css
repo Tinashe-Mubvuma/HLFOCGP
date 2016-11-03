@@ -66,5 +66,20 @@ input[type=submit]{
 #login{
 	display: none;
 }
+#sign_up:hover{
+	background: rgba(0,0,0,0.1);
+}
+
+#login_btn:hover{
+	background: rgba(0,0,0,0.1);
+}
+
+#login:hover{
+	background: rgba(0,0,0,0.1);
+}
+
+#create_btn:hover{
+	background: rgba(0,0,0,0.1);
+}
 
 
