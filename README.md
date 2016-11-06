@@ -1,2 +1,2 @@
 # HLFOCGP
-HigherLife Foundations Online Career Guidance Project
+HigherLife Foundations Online Career Guidance Project.
