@@ -15,11 +15,10 @@
 		display: block;
 	}
 		#left img{
-			height: 90px;
+			height: 100px;
 			margin-top: 80px;
 			background-color: #f7f7f6;
 			border-radius: 100%;
-			box-shadow: 0px 1px 3px #7f7f7f;
 		}
 		
 	.props{
@@ -28,7 +27,7 @@
 		padding-top: 30px;
 		box-shadow: 0px 1px 3px #567890;
 		width: 70%;
-		height: 40%;
+		height: 45%;
 		margin: auto;
 		margin-top: -20px;
 		z-index: -1;
@@ -47,7 +46,6 @@
 			display: block;
 			color: #595959;
 			text-align: center;
-			font-size: 13.5px;
 		}
 		.props li:hover{
 			background-color: #A5BACE;
@@ -68,21 +66,20 @@
 		display: block;
 	}
 		#right img{
-			height: 90px;
+			height: 100px;
 			border-radius: 100%;
 			border: 6px solid #D5AD65;
 			margin-top: 80px;
 			background-color: #f7f7f6;
-			box-shadow: 0px 1px 3px #7f7f7f;
 		}
 
 
 	#header{
 		background-color: #D9D9D9;
 		width: 60%;
-		box-shadow: 0px 2px 5px #a6a6a6;
-		/*border-top-left-radius: 5px;*/
-		/*border-top-right-radius: 5px;*/
+		box-shadow: 0px 3px 10px #567890;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
 		position: fixed;
 		padding-right: 30px;
 	}
@@ -111,33 +108,32 @@
 			margin-right: 15px;
 		}
 
-		#header ul li:hover>#compose_dropdown{
+		#header ul li:hover>#post_dropdown{
 			display: block;
 		}
-		#header #compose_dropdown{
-			width: 180px;
+		#header #post_dropdown{
+			width: 200px;
 			position: absolute;
-			padding: 25px;
-			background-color: #f7f7f6;
+			padding: 15px;
+			background-color: #d6dce5;
 			box-shadow: 0px 0px 3px #333;
 			margin-left: -15px;
 			margin-top: 5px;
 			display: none;
 		}
 		
-		#compose_dropdown li{
+		#post_dropdown li{
 			float: none;
 			width: 100%;
 			display: block;
 			padding: 10px 5px;
 			cursor: pointer;
 		}
-		#compose_dropdown li a{
+		#post_dropdown li a{
 			text-decoration: none;
 			color: #7F7F7F;
-			font-size: 13px;
 		}
-		#header #compose_dropdown li:hover{
+		#header #post_dropdown li:hover{
 			background: #A5BACE;
 		}
 	#top_menu{
@@ -147,14 +143,13 @@
 		margin-top: 60px;
 		display: inline-flex;
 		overflow: hidden;
-		
 	}
 	.menu_item{
 		width: 33.33%;
 		display: inline-flex;
 		height: 100%;
 		color: #7F7F7F;
-		font-size: 12px;
+		font-size: 14px;
 		cursor: pointer;
 	}
 	.menu_item span{

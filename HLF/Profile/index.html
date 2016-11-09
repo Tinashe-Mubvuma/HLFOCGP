@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HLFOCG - Profile Page</title>
+	<title>HLFOCG - Home Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" href="images/h_favicon.png">
+	<link rel="icon" type="image/png" href="images/h_logo.png">
 	<meta charset="utf-8">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/profile_style.css">
 </head>
 <body>
 	<div id="left">
 		<img src="images/h_logo_og.png">
 		<div class="props">
 			<ul>
-				<li>Announcements</li>
-				<li>Notifications</li>
-				<li>Bulletin</li>
-				<li>Calendar</li>
-				<li>Events</li>
-				<li>Archives</li>
+				<li>Save Profile</li>
+				<li>Reset</li>
+				<li>Help</li>
+				<li>About</li>
 			</ul>
 		</div>
 	</div>
@@ -27,88 +25,73 @@
 		<img src="images/john_doe.jpg">
 		<div class="props">
 			<ul>
-				<li>Profile</li>
-				<li>Notifications</li>
-				<li>Contacts</li>
-				<li>Messages</li>
-				<li>Careers</li>
-				<li>Settings</li>
+				<li>Profile Picture</li>
 			</ul>
 		</div>
 	</div>
 
 	<div id="main">
-		<div id="header">
-			<ul>
-				<li id="home"><img src="images/home_icon.png"></li>
-				<li id="compose"><img src="images/compose.png">
-					<ul id="compose_dropdown">
-						<li><a href="#">Timeline Post</a></li>
-						<li><a href="#">Message</a></li>
-						<li><a href="#">Notification</a></li>
-						<li><a href="#">Event</a></li>
-						<li><a href="#">Announcement</a></li>
-						<li><a href="#">Upload Media</a></li>
-					</ul>
-				</li>
-			</ul>
-			<ul id="right_header">
-				<li id="logout_btn"><img src="images/logout.png"></li>
-				<li><img src="images/options.png"></li>
-			</ul>
-		</div>
 
 		<div id="top_menu">
+			<div class="menu_item"></div>
 			<div class="menu_item">
-				<img src="images/alarm.png" class="not_logo">
-				Calender:<br>
-				Skype w/ Mentor
+				<img src="images/.png" class="not_logo">
+				<span style="color: #ff0000;">Please complete the<br>indicated fields</span>
 			</div>
-			<div class="menu_item">
-				<img src="images/time_glass.png" class="not_logo">
-				Reminder:<br>
-				3 Days to CV Submit
-			</div>
-			<div class="menu_item">
-				<img src="images/flag.png" class="not_logo">
-				Notification:<br>
-				Update Password
-			</div>
+			<div class="menu_item"></div>
 		</div>
 		
-		<div id="profile" style="display:block">
-			<div id="prof_pic_set">
-				<div id="prof_box">
-					<form name="log">
-						<p>Set Profile Picture</p>
-						<input type="file" name="upload" id="file">
-					</form>
-					<input id = "upload" type="submit" value="Upload And Set">
-				</div>
+		<div id="prof_box">
+			<div>
+				<label>Gender</label><br>
+				<select>
+					<option>N/A</option>
+					<option>MALE</option>
+					<option>FEMALE</option>
+				</select>
 			</div>
-			<div id="prof_set">
-				<div id="edit_box">
-					<form name="edit">
-						<input type="text" placeholder="Cellphone Number" name="cell">
-						<input type="text" placeholder="Current Location" name="location">
-						<input type="text" placeholder="Citizenship" name="citizen">
-						<input type="text" placeholder="Alma mater" name="alma">
-						<input type="text" placeholder="Current Field" name="field">
-						<input type="text" placeholder="Specialty" name="spec">
-						<input type="text" placeholder="Experianced in " name="exp">
-						
-						<select name="gender">
-							<option value="Male">Male</option>
-							<option value="Female">Female</option>
-						</select>
-						<input type="text" placeholder="Religion" name="religion">
-						<textarea rows="3" name="interests" placeholder="Interests"></textarea>
-						
-					</form>
-					<input type="submit" id="update_btn" value="Save Changes">
-				</div>
+
+			<div>
+				<label>Field of Study</label><br>
+				<input type="text" name="fos">
 			</div>
+
+			<div>
+				<label>Career Field of Interest</label><br>
+				<input type="text" name="cfoi">
+			</div>
+
+			<div>
+				<label>High School</label><br>
+				<input type="text" name="cfoi">
+			</div>
+			<div>
+				<label>A Level Subjects</label><br>
+				<input type="text" name="cfoi">
+			</div>
+
+			<div>
+				<label>Date of Birth</label><br>
+				<input type="date" name="cfoi">
+			</div>
+
+			<div>
+				<label>Class Year</label><br>
+				<input type="date" name="cfoi">
+			</div>
+
+			<div>
+				<label>University</label><br>
+				<input type="text" name="cfoi">
+			</div>
+
+			<div>
+				<label>Country</label><br>
+				<input type="text" name="cfoi">
+			</div>
+			
 		</div>
+
 	</div>
 </body>
 </html>
