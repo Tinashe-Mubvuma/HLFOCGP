@@ -7,14 +7,14 @@
 		padding: 0px;
 		background-color: #f7f7f6;
 	}
-	#left{
+	#left_bar{
 		width: 20%;
 		height: 800px;
 		position: fixed;
 		text-align: center;
 		display: block;
 	}
-		#left img{
+		#left_bar img{
 			height: 90px;
 			margin-top: 80px;
 			background-color: #f7f7f6;
@@ -59,7 +59,7 @@
 		padding-top: 0px;
 		padding-bottom: 30px;
 	}
-	#right{
+	#right_bar{
 		margin-left: 80%;
 		width: 20%;
 		height: 800px;
@@ -67,7 +67,7 @@
 		text-align: center;
 		display: block;
 	}
-		#right img{
+		#right_bar img{
 			height: 90px;
 			border-radius: 100%;
 			border: 6px solid #D5AD65;
@@ -77,41 +77,41 @@
 		}
 
 
-	#header{
+	#first_bar{
 		background-color: #D9D9D9;
 		width: 60%;
 		box-shadow: 0px 2px 5px #a6a6a6;
 		position: fixed;
 	}
-		#header ul{
+		#first_bar ul{
 			list-style-type: none;
 			margin: 0px;
 			padding: 0;
 		}
-			#header ul li{
+			#first_bar ul li{
 				float: left;
 			}
-			#header li{
+			#first_bar li{
 				text-decoration: none;
 				padding: 5px 15px;
 				display: block;
 			}
-			#header li:hover{
+			#first_bar li:hover{
 				background: rgba(0,0,0,0.1);
 			}
 
-		#header img{
+		#first_bar img{
 			height: 20px;
 		}
-		#right_header{
+		#right_first_bar{
 			float: right;
 			margin-right: 15px;
 		}
 
-		#header ul li:hover>#compose_dropdown{
+		#first_bar ul li:hover>#compose_dropdown{
 			display: block;
 		}
-		#header #compose_dropdown{
+		#first_bar #compose_dropdown{
 			width: 180px;
 			position: absolute;
 			padding: 25px;
@@ -134,10 +134,10 @@
 			color: #7F7F7F;
 			font-size: 13px;
 		}
-		#header #compose_dropdown li:hover{
-			background: #A5BACE;
+		#first_bar #compose_dropdown li:hover{
+			background: #e1ebf5;
 		}
-	#top_menu{
+	#second_bar{
 		width: 90%;
 		height: 102px;
 		margin-left: 5%;
@@ -146,7 +146,7 @@
 		overflow: hidden;
 		
 	}
-	.menu_item{
+	.second_bar_items{
 		width: 33.33%;
 		display: inline-flex;
 		height: 100%;
@@ -154,7 +154,7 @@
 		font-size: 12px;
 		cursor: pointer;
 	}
-	.menu_item span{
+	.second_bar_items span{
 		font-weight: bolder;
 		font-size: 100px;
 		color: #028482;
@@ -164,7 +164,7 @@
 		height: 40px;
 		margin-right: 10px;
 	}
-	#posts{
+	#timeline{
 	}
 	.post_container{
 		width: 100%;
