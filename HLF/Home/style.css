@@ -6,6 +6,13 @@
 		margin: 0px;
 		padding: 0px;
 		background-color: #f7f7f6;
+	}	
+	#pane{
+		position: fixed;
+		width: 100%;
+		height: 162px;
+		background-color: #f7f7f6;
+		z-index: 5;
 	}
 	#left_bar{
 		width: 20%;
