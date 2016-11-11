@@ -10,7 +10,7 @@
 	#pane{
 		position: fixed;
 		width: 100%;
-		height: 162px;
+		height: 100px;
 		background-color: #f7f7f6;
 		z-index: 5;
 	}
@@ -20,6 +20,7 @@
 		position: fixed;
 		text-align: center;
 		display: block;
+		z-index: 10;
 	}
 		#left_bar img{
 			height: 90px;
@@ -73,6 +74,7 @@
 		position: fixed;
 		text-align: center;
 		display: block;
+		z-index: 10;
 	}
 		#right_bar img{
 			height: 90px;
@@ -89,6 +91,7 @@
 		width: 60%;
 		box-shadow: 0px 2px 5px #a6a6a6;
 		position: fixed;
+		z-index: 10;
 	}
 		#first_bar ul{
 			list-style-type: none;
@@ -145,20 +148,21 @@
 			background: #e1ebf5;
 		}
 	#second_bar{
-		width: 90%;
+		width: 55%;
 		height: 102px;
-		margin-left: 5%;
-		margin-top: 60px;
+		margin-left: 7%;
+		margin-top: 55px;
 		display: inline-flex;
 		overflow: hidden;
-		
+		position: fixed;
+		z-index: 10;		
 	}
 	.second_bar_items{
 		width: 33.33%;
 		display: inline-flex;
 		height: 100%;
 		color: #7F7F7F;
-		font-size: 12px;
+		font-size: 11.5px;
 		cursor: pointer;
 	}
 	.second_bar_items span{
@@ -168,10 +172,11 @@
 	}
 	.not_logo{
 		width: auto;
-		height: 40px;
+		height: 30px;
 		margin-right: 10px;
 	}
 	#timeline{
+		margin-top: 153px;
 	}
 	.post_container{
 		width: 100%;
