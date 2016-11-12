@@ -192,7 +192,6 @@
 		height: 100%;
 		color: #7F7F7F;
 		font-size: 11.5px;
-		cursor: pointer;
 	}
 	.second_bar_items span{
 		font-weight: bolder;
@@ -203,6 +202,7 @@
 		width: auto;
 		height: 30px;
 		margin-right: 10px;
+		cursor: pointer;	/*make the text cursor pointer too*/
 	}
 	#timeline{
 		margin-top: 153px;
