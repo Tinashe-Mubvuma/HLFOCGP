@@ -1,9 +1,165 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>HLFOCG - Home Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="images/h_favicon.png">
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/style_notification.css">
 </head>
 <body>
+	<div id="pane"></div>
+	<div id="left_bar">
+		<img src="images/h_logo_og.png">
+		<div class="props">
+			<ul>
+				<li>Announcements</li>
+				<li>Notifications</li>
+				<li>Bulletin</li>
+				<li>Calendar</li>
+				<li>Events</li>
+				<li>Archives</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="right_bar">
+		<img src="images/john_doe.jpg">
+		<div class="props">
+			<ul>
+				<li>Profile</li>
+				<li>Notifications</li>
+				<li>Contacts</li>
+				<li>Messages</li>
+				<li>Careers</li>
+				<li>Settings</li>
+			</ul>
+		</div>
+	</div>
 
+	<div id="main">
+		<div id="first_bar">
+			<ul>
+				<li id="home"><img src="images/home_icon.png"></li>
+				<li id="compose"><img src="images/compose.png">
+					<ul id="compose_dropdown">
+						<li><a href="#">Timeline Post</a></li>
+						<li><a href="#">Message</a></li>
+						<li><a href="#">Notification</a></li>
+						<li><a href="#">Event</a></li>
+						<li><a href="#">Announcement</a></li>
+						<li><a href="#">Upload Media</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul id="right_first_bar">
+				<li id="logout_btn"><img src="images/logout.png"></li>
+				<li><img src="images/options.png">
+					<ul id="options_dropdown">
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div id="second_bar">
+			<div class="second_bar_items">
+				<img src="images/calendar.png" class="not_logo">
+				Calender:<br>
+				Skype w/ Mentor
+			</div>
+			<div class="second_bar_items">
+				<img src="images/time_glass.png" class="not_logo">
+				Reminder:<br>
+				3 Days to CV Submit
+			</div>
+			<div class="second_bar_items">
+				<img src="images/flag.png" class="not_logo">
+				Notification:<br>
+				Update Password
+			</div>
+		</div>
+		<div id="timeline">
+
+			<!--Notification begins here-->
+			<div class="notif_container">
+				<div class='notif_prop'>
+					<div class='notif_details'>
+					
+						<br><br>
+						<img class='notif_img' src='images/alarm.png'><br>
+						<span class='notif_name'>Alert</span>
+					</div>
+					<div class="notification">
+						Subject: Skype with mentor   <br> <br>   
+						 
+						Time: Today, 10:00am <br><br>
+						Location: Skype
+						
+					</div>
+				</div>
+				<div class='notif_prop'>
+					<div class='notif_details'>
+					
+						<br><br>
+						<img class='notif_img' src='images/time_glass.png'><br>
+						<span class='notif_name'>Reminder</span>
+					</div>
+					<div class="notification">
+						Subject: Skype with mentor   <br> <br>   
+						 
+						Time: Today, 10:00am <br><br>
+						Location: Skype
+						
+					</div>
+				</div>
+
+				<div class='notif_prop'>
+					<div class='notif_details'>
+					
+						<br>
+						<img class='notif_img' src='images/calendar.png'><br>
+						<span class='notif_name'>Calender</span>
+					</div>
+					<div class="notification">
+						Subject: Submit CV   <br> <br>   
+						 
+						Date: 24/24/2024<br><br>
+						Location: Skype
+						
+					</div>
+				</div>
+				
+					<div class='notif_prop'>
+					<div class='notif_details'>
+					
+						<br>
+						<img class='notif_img' src='images/flag.png'><br>
+						<span class='notif_name'>Important</span>
+					</div>
+					<div class="notification">
+						Subject: update password   <br> <br>   
+						 
+						Every 6 months we ask our users to uadate their passwords <br><br>
+						
+						
+					</div>
+				</div>
+
+				
+
+				<div class="divider"> View More Notifications</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
 </body>
 </html>
