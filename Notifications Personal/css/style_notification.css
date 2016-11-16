@@ -226,6 +226,11 @@
 		margin-bottom: 20px;
 		padding-bottom: 5px;
 	}
+	.more_items{
+		
+		width: 40px;
+		
+	}
 	.notif_details{
 		width: 70px;
 		text-align: center;
