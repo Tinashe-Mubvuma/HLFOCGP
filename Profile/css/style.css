@@ -75,27 +75,123 @@
 			background-color: #f7f7f6;
 			box-shadow: 0px 1px 3px #7f7f7f			
 		}
+	#first_bar{
+		background-color: #D9D9D9;
+		width: 60%;
+		box-shadow: 0px 2px 5px #a6a6a6;
+		position: fixed;
+		z-index: 10;
+	}
+		#first_bar ul{
+			list-style-type: none;
+			margin: 0px;
+			padding: 0;
+		}
+			#first_bar ul li{
+				float: left;
+			}
+			#first_bar li{
+				text-decoration: none;
+				padding: 5px 15px;
+				display: block;
+			}
+			#first_bar li:hover{
+				background: rgba(0,0,0,0.1);
+			}
 
-	#warning_bar{
-		width: 90%;
+		#first_bar img{
+			height: 20px;
+		}
+		#right_first_bar{
+			float: right;
+			margin-right: 15px;
+		}
+
+		#first_bar ul li:hover>#compose_dropdown{
+			display: block;
+		}
+		#first_bar #compose_dropdown{
+			width: 180px;
+			position: absolute;
+			padding: 5px 20px;
+			background-color: #f7f7f6;
+			box-shadow: 0px 0px 3px #333;
+			margin-left: -15px;
+			margin-top: 5px;
+			display: none;
+		}
+		
+		#compose_dropdown li{
+			float: none;
+			width: 100%;
+			display: block;
+			padding: 7px 5px;
+			cursor: pointer;
+		}
+		#compose_dropdown li a{
+			text-decoration: none;
+			color: #7F7F7F;
+			font-size: 13px;
+		}
+		#first_bar #compose_dropdown li:hover{
+			background: #e1ebf5;
+		}
+		#first_bar ul li:hover>#options_dropdown{
+			display: block;
+		}
+		#first_bar #options_dropdown{
+			width: 180px;
+			position: absolute;
+			padding: 5px 20px;
+			background-color: #f7f7f6;
+			box-shadow: 0px 0px 3px #333;
+			margin-left: -15px;
+			margin-top: 5px;
+			display: none;
+		}
+		
+		#options_dropdown li{
+			float: none;
+			width: 100%;
+			display: block;
+			padding: 7px 5px;
+			cursor: pointer;
+		}
+		#options_dropdown li a{
+			text-decoration: none;
+			color: #7F7F7F;
+			font-size: 13px;
+		}
+		#first_bar #options_dropdown li:hover{
+			background: #e1ebf5;
+		}
+	#second_bar{
+		width: 55%;
 		height: 102px;
-		margin-left: 40%;
-		margin-top: 60px;
+		margin-left: 7%;
+		margin-top: 55px;
 		display: inline-flex;
 		overflow: hidden;
+		position: fixed;
+		z-index: 5;		
 	}
-	.warning_item{
+	.second_bar_items{
 		width: 33.33%;
 		display: inline-flex;
 		height: 100%;
 		color: #7F7F7F;
-		font-size: 14px;
-		cursor: pointer;
+		font-size: 11.5px;
+	}
+	.second_bar_items span{
+		font-weight: bolder;
+		font-size: 100px;
+		color: #028482;
 	}
 	.not_logo{
 		width: auto;
 		height: 30px;
 		margin-right: 10px;
+		cursor: pointer;	/*make the text cursor pointer too*/
 	}
 #prof_pic_set{
 	width: 50%;
@@ -114,6 +210,7 @@
 #prof_box{
 	width: 100%;
 	margin: auto;
+	margin-top: 153px;
 	padding: 20px;
 	background-color: #D9D9D9;
 	border: #D5AD65 1px solid;
